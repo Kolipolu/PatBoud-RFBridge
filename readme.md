@@ -5,12 +5,12 @@
 *v1.1 - 2017-01-05*  
 *Par: PatBoud*
 
-##### Requiert les librairies suivantes
+### Requiert les librairies suivantes
 RCSwitch  
 PubSubClient  
 ArduinoJson  
 
-##### Détails
+### Détails
 
 Recoit un message MQTT sur topic rf/commandes/xxxxxx, et publie une confirmation sur topic rf/etat/xxxxxx .  
 xxxxxx est défini par l'utilisateur et représente une switch en particulier.
