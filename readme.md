@@ -1,9 +1,16 @@
 # PatBoud-RFBridge
 
-**Pont MQTT vers RF pour Arduino ESP8266, qui reçoit un message MQTT contenant une commande, et envoie cette commande via RF**
+*Pont MQTT vers RF pour Arduino ESP8266, qui reçoit un message MQTT contenant une commande, et envoie cette commande via RF*
 
 *v1.1 - 2017-01-05*  
 *Par: PatBoud*
+
+##### Requiert les librairies suivantes
+RCSwitch  
+PubSubClient  
+ArduinoJson  
+
+##### Détails
 
 Recoit un message MQTT sur topic rf/commandes/xxxxxx, et publie une confirmation sur topic rf/etat/xxxxxx .  
 xxxxxx est défini par l'utilisateur et représente une switch en particulier.
