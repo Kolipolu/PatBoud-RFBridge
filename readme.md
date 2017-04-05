@@ -1,6 +1,6 @@
 # PatBoud-RFBridge
 
-** Pont MQTT vers RF pour Arduino ESP8266, qui reçoit un message MQTT contenant une commande, et envoie cette commande via RF **
+**Pont MQTT vers RF pour Arduino ESP8266, qui reçoit un message MQTT contenant une commande, et envoie cette commande via RF**
 
 *v1.1 - 2017-01-05*  
 *Par: PatBoud*
@@ -31,7 +31,7 @@ NEXXTECH C 1 OFF | {"Freq":433,"Code":19009556,"Bits":26,"Prot":1}
 ---
 Conçu pour s'utiliser parfaitement de concert avec Home-Assistant ( https://home-assistant.io/ ).
 
-** Exemple de configuration de Switch dans Home-Assistant:**
+**Exemple de configuration de Switch dans Home-Assistant:**
 ```
 switch:
   - platform: mqtt
