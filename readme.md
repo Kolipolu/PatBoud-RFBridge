@@ -19,7 +19,7 @@ Par exemple, le topic pourrait être: rf/commandes/woodsA
 
 Le message doit être au format JSON. Voici des exemples de messages:
 
-NOM DE SWITCH | MESSAGE MQTT  
+Switch et commande | Message MQTT  
 --- | ---
 WOODS A ON | {"Freq":315,"Code":12345,"Bits":15,"Prot":2,"PL":820}  
 WOODS A OFF | {"Freq":315,"Code":54321,"Bits":15,"Prot":2,"PL":820}
@@ -30,7 +30,7 @@ pour le protocole choisi sera utilisé.
 
 Voici un exemple où le PulseLength n'est pas défini:
 
-NOM DE SWITCH | MESSAGE MQTT
+Switch et commande | Message MQTT
 --- | ---
 NEXXTECH C 1 ON | {"Freq":433,"Code":35786772,"Bits":26,"Prot":1}  
 NEXXTECH C 1 OFF | {"Freq":433,"Code":19009556,"Bits":26,"Prot":1}
